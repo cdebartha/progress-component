@@ -8,14 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var progress = 0.0
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            ProgressionView(percent: progress)
+                .frame(width: 300, height: 30)
+            
+            Button {
+                if progress > 0.9 {
+                    progress = 0
+                } else {
+                withAnimation(.spring(response: 1)) {
+                        progress += 0.1
+                    }
+                }
+            } label: {
+                Text("Animate")
+            }
+
         }
-        .padding()
     }
 }
 

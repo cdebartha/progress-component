@@ -11,6 +11,7 @@
 		714C3C942AEE29FA007DA0FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714C3C932AEE29FA007DA0FA /* ContentView.swift */; };
 		714C3C962AEE29FB007DA0FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 714C3C952AEE29FB007DA0FA /* Assets.xcassets */; };
 		714C3C992AEE29FB007DA0FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 714C3C982AEE29FB007DA0FA /* Preview Assets.xcassets */; };
+		714C3CA02AEE2A34007DA0FA /* ProgressionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714C3C9F2AEE2A34007DA0FA /* ProgressionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		714C3C932AEE29FA007DA0FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		714C3C952AEE29FB007DA0FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		714C3C982AEE29FB007DA0FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		714C3C9F2AEE2A34007DA0FA /* ProgressionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				714C3C932AEE29FA007DA0FA /* ContentView.swift */,
 				714C3C952AEE29FB007DA0FA /* Assets.xcassets */,
 				714C3C972AEE29FB007DA0FA /* Preview Content */,
+				714C3C9F2AEE2A34007DA0FA /* ProgressionView.swift */,
 			);
 			path = ProgressComponent;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				714C3CA02AEE2A34007DA0FA /* ProgressionView.swift in Sources */,
 				714C3C942AEE29FA007DA0FA /* ContentView.swift in Sources */,
 				714C3C922AEE29FA007DA0FA /* ProgressComponentApp.swift in Sources */,
 			);
